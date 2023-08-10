@@ -1,0 +1,88 @@
+body{
+  background-image: url("quizimg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Georgia, 'Times New Roman', Times, serif
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background: black;
+  color: gray;
+  opacity: .8;
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 15px;
+}
+
+nav li{
+  display: inline;
+  float: right;
+  margin-right: 25px;
+}
+
+nav li:hover{
+  color: #fff;
+  cursor: pointer;
+}
+
+#navbar{
+  margin-bottom: 50px;
+}
+
+.form_container{
+  text-align: center;
+  color: #fb6868;
+  margin-bottom: 100px;
+}
+
+.form_container h1{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Increase radio button's size */
+input[type='radio']{
+  width: 20px;
+  height: 20px;
+}
+
+.form-group{
+  text-align: center;
+  color: #df5050;
+  margin-bottom: 30px;
+}
+.form-group label{
+  font-size: 30px;
+  font-family: monospace;
+}
+.in:focus{
+  -webkit-transform: scale(110.2);
+  transform: scale(1.2);
+  transition: all .5s linear;
+}
+
+#sub{
+  padding: 10px;
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fb6868;
+  border: none;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.res{
+  background: black;
+  opacity: .8;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
